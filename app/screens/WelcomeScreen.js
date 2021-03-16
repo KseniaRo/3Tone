@@ -6,7 +6,7 @@ import colors from '../config/colors';
 export default function WelcomeScreen({ navigation }) {
   return (
     <ImageBackground
-      // blurRadius={2}
+      // blurRadius={2} //test comment
       style={styles.background}
       source={require('../assets/city-night.png')} >
       <View style={styles.logoContainer}>
